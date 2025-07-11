@@ -1,39 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Spinbet Livescore App
 
-## Getting Started
+A modern, responsive livescore web application built with **Next.js** and **Styled Component**. SpinBet delivers sports scores with a clean UI and fast performance.
 
-First, run the development server:
+🌐 [Live Demo](https://spinbet-livescore-app.vercel.app/)  
+
+🌐 [Live API Demo](https://spinbet-livescore-api.onrender.com/api/v1/livescore) 
+
+📦 [GitHub App Repository](https://github.com/emersonbarrion/spinbet-livescore-app)
+
+📦 [GitHub Api Repository](https://github.com/emersonbarrion/spinbet-livescore-api)
+
+---
+## 🛠️ Tech Stack
+
+| Stack                | Deployment  |
+|----------------------|-------------|
+| Next.js (frontend)   | Vercel      |
+| Express.js (backend) | Render.com  |
+
+| Stack                 | Code Quality             |
+|-----------------------|--------------------------|
+| Prettier              | Formatter                |
+| ESLint                | Linter                   |
+| Typescript            | Type-safe                |
+| JSCPD                 | Detect duplicate code    |
+| Jest                  | Unit Testing             |
+| React Testing Library | Component Testing        |
+| Storybook             | Component Visual Testing |
+| Cypress               | End to End Testing       |
+
+
+---
+
+## 🚀 Features
+
+### Functionality
+- ⚡ Display list of match with scores
+- 🔍 Able to filter match by status
+- 📱 Seamless experience across devices
+
+### Performance
+- Lighthouse
+![lighthouse.png](readme-screenshots/lighthouse.png)
+- GTmetrix
+![gtmetrix.png](readme-screenshots/gtmetrix.png)
+
+### Monitoring
+- Microsoft Clarity
+![clarity.png](readme-screenshots/clarity.png)
+- Sentry.io - TBA
+---
+
+
+
+---
+
+## 📸 Screenshots
+
+![all.png](readme-screenshots/all.png)
+![filter.png](readme-screenshots/filter.png)
+![responsive.png](readme-screenshots/responsive.png)
+---
+
+## 📦 Installation
 
 ```bash
+# Clone the repo
+git clone https://github.com/emersonbarrion/spinbet-livescore-app.git
+cd spinbet-livescore-app
+
+# Install dependencies
+npm install
+
+# Run locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Run code quality check - includes format, lint, unit test, component test and jscpd
+npm run check
 
-You can start editing the page by modifying `app/global-error.tsx`. The page auto-updates as you edit the file.
+# Run Storybook - app should be running
+npm run storybook 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Run E2E - app should be running
+npm run e2e
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-// https://spinbet-livescore-app.vercel.app/
-// https://spinbet-livescore-api.onrender.com/api/v1/livescore
+# Run E2E Headless mode
+npm run e2e:headless
