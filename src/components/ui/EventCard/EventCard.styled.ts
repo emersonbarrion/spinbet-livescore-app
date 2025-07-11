@@ -19,7 +19,7 @@ const EventCardStyled = styled.div`
 
     .country-name {
         font-size: 0.8rem;
-        color: #a1a1a1;
+        color: #d1d1d1;
         letter-spacing: 2px;
     }
 

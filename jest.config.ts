@@ -39,6 +39,8 @@ const config: Config = {
         '!src/**/fonts.ts',
         '!src/**/StyledComponentsRegistry.tsx',
         '!src/**/services/index.ts',
+        '!src/**/*.const.ts',
+        '!src/**/ClarityInit.tsx',
     ],
 
     // The directory where Jest should output its coverage files

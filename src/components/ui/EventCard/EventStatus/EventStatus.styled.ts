@@ -13,11 +13,11 @@ const EventStatusStyled = styled.div<{ $status: string }>`
                 `;
             case 'LIVE':
                 return css`
-                    color: #9c912d;
+                    color: #eadd6c;
                 `;
             case 'CANCELLED':
                 return css`
-                    color: #ca6875;
+                    color: #ffc7cd;
                 `;
             default:
                 return css`
