@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import EventList from '@/components/containers/EventList/EventList';
+import EventList from '@/components/features/EventList/EventList';
 import { generateEvents } from '@/services/event/event.utils';
 
 describe('EventList', () => {

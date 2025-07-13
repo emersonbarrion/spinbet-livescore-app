@@ -1,5 +1,5 @@
 import type { StoryObj } from '@storybook/nextjs-vite';
-import EventList from '@/components/containers/EventList/EventList';
+import EventList from '@/components/features/EventList/EventList';
 import { generateEvents } from '@/services/event/event.utils';
 
 const meta = {

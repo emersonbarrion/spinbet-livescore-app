@@ -1,5 +1,5 @@
 import React from 'react';
-import EventList from '@/components/containers/EventList/EventList';
+import EventList from '@/components/features/EventList/EventList';
 import services from '@/services';
 import { toViewModel } from '@/services/mapper/event.mapper';
 import { EventCardViewmodel } from '@/components/ui/EventCard/EventCard.viewmodel';

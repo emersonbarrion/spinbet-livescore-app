@@ -1,7 +1,7 @@
 'use client';
 
 import React, { FC, ReactNode, useState } from 'react';
-import HeaderStyled from '@/components/containers/Header/Header.styled';
+import HeaderStyled from '@/components/ui/Header/Header.styled';
 
 const Header: FC<{ children?: ReactNode }> = ({ children }) => {
     const [showFilter, setShowFilter] = useState(false);

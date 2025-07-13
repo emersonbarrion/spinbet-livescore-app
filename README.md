@@ -1,9 +1,8 @@
 # 🎯 Spinbet Livescore App
 
-
 ## 📝 Project Overview
-Spinbet Livescore App is a responsive web application built to simulate live sports match feeds. It parses a static JSON file to display match information, filtering by status (Live, Result, Upcoming) with dynamic counters. Built as part of a coding challenge for a Lead Frontend role.
 
+Spinbet Livescore App is a responsive web application built to simulate live sports match feeds. It parses a static JSON file to display match information, filtering by status (Live, Result, Upcoming) with dynamic counters. Built as part of a coding challenge for a Lead Frontend role.
 
 🌐 [Live Demo](https://spinbet-livescore-app.vercel.app/)
 
@@ -22,8 +21,9 @@ Spinbet Livescore App is a responsive web application built to simulate live spo
 | Next.js (frontend)   | Vercel     |
 | Express.js (backend) | Render.com |
 
-| Stack                 | Code Quality             |
-| --------------------- |--------------------------|
+| Tools                 | Code Quality             |
+|-----------------------|--------------------------|
+| Styled Component      | Styling                  |
 | Prettier              | Formatter                |
 | ESLint                | Linter                   |
 | Typescript            | Type safety              |
@@ -59,8 +59,7 @@ End to End Headless
 
 End to End
 
-![e2e.png](readme-screenshots/e2e.png)
----
+## ![e2e.png](readme-screenshots/e2e.png)
 
 ## 🚀 Features
 
@@ -71,17 +70,17 @@ End to End
 - 📱 Seamless experience across devices
 
 ### 🔍 Filtering Logic
+
 - **All**: Displays all matches
 - **Live**: Matches with `status.type === "inprogress"`
 - **Result**: Matches with `status.type === "finished"`
 - **Upcoming**: Matches with `status.type === "notstarted"`
 - Counters reflect the number of matches in each category.
 
-
 ### 🎨 Design Details
+
 - Font used: [Barlow](https://fonts.google.com/specimen/Barlow)
 - Match status styling based on [provided design assets](https://github.com/spinbet/fe-interview-test/tree/master/media)
-
 
 ### Performance
 
@@ -135,6 +134,7 @@ npm run e2e:headless
 ---
 
 ## 🚧 Future Enhancements
+
 - Real-time match updates (mock polling/WebSocket integration)
 - Apply progress time indicator for ongoing matches (progress bar border)
 - Animate LIVE badge for active matches

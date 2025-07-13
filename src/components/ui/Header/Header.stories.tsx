@@ -1,5 +1,5 @@
 import type { StoryObj } from '@storybook/nextjs-vite';
-import Header from '@/components/containers/Header/Header';
+import Header from '@/components/ui/Header/Header';
 
 const meta = {
     title: 'Components/Header',

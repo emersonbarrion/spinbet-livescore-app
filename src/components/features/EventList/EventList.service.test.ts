@@ -1,4 +1,4 @@
-import { EventListService } from '@/components/containers/EventList/EventList.service';
+import { EventListService } from '@/components/features/EventList/EventList.service';
 import { EventCardViewmodel } from '@/components/ui/EventCard/EventCard.viewmodel';
 import { Status } from '@/services/event/event.model';
 import { FilterType } from '@/components/ui/Filter/Filter.viewmodel';
